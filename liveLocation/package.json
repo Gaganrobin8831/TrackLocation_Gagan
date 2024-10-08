@@ -15,7 +15,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
     "build": "npx babel src --out-dir dist && copyfiles -u 1 src/views/**/* dist"
-
   },
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
